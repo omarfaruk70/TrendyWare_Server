@@ -1,0 +1,37 @@
+[
+    {
+        "img": "https://i.ibb.co/ZKMpCLZ/boy1.png",
+        "name": "Tomas krick",
+        "title": "Founder - Jetbrains",
+        "ratings": 5,
+        "review": "Outstanding customer service! Friendly staff go out of their way to ensure a seamless visit"
+    },
+    {
+        "img": "https://i.ibb.co/Lk8HcT5/girl2.jpg",
+        "name": "Tomas krick",
+        "title": "Founder - Jetbrains",
+        "ratings": 5,
+        "review": "A shopper's paradise! Incredible variety of stores and eateries, making it a joy to explore."
+    },
+    {
+        "img": "https://i.ibb.co/QbBb03b/boy2.jpg",
+        "name": "Tomas krick",
+        "title": "Founder - Jetbrains",
+        "ratings": 5,
+        "review": "Exquisite ambiance and impeccable cleanliness create a truly delightful shopping experience."
+    },
+    {
+        "img": "https://i.ibb.co/ZKMpCLZ/boy1.png",
+        "name": "Tomas krick",
+        "title": "Founder - Jetbrains",
+        "ratings": 5,
+        "review": "An oasis of luxury and convenience, offering everything one could desire under one roof."
+    },
+    {
+        "img": "https://i.ibb.co/Lk8HcT5/girl2.jpg",
+        "name": "Tomas krick",
+        "title": "Founder - Jetbrains",
+        "ratings": 5,
+        "review": "It exceeds expectations with its top-notch quality and selection."
+    }
+]
