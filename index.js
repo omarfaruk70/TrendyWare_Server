@@ -33,7 +33,15 @@ async function run() {
     const products = trendyWearDB.collection("products");
     const reviews = trendyWearDB.collection("reviews");
 
-
+    // get all products from DB
+    app.get('/api/v1/user/allproducts', async(req, res) => {
+      const page = parseInt(req.query.page);
+      const limit = parseInt(req.query.limit);
+      const skip = (page - 1) * limit || 0;
+      const totalProducts = await products.estimatedDocumentCount();
+      const getAllProducts = await products.find().skip(skip).limit(limit).toArray();
+      res.send({getAllProducts, totalProducts});
+    })
     
     // get all reviews to show the ui
     app.get("/api/v1/user/reviews", async (req, res) => {
